@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi tienda online</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-nav">
+      <h1>Mi tienda</h1>
+      <button id="checkout" class="button-checkout" onclick="pay()">
+        Pagar
+      </button>
+    </div>
+    <div class="page-content">
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product1.jpg" />
+        <h1>$3000</h1>
+        <button class="button-add" onclick="add(`product1`, 3000)">
+          Agregar
+        </button>
+      </div>
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product2.jpg" />
+        <h1>$2000</h1>
+        <button class="button-add" onclick="add(`product2`, 2000)">
+          Agregar
+        </button>
+      </div>
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product3.jpg" />
+        <h1>$7000</h1>
+        <button class="button-add" onclick="add(`product3`, 7000)">
+          Agregar
+        </button>
+      </div>
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product4.jpg" />
+        <h1>$8000</h1>
+        <button class="button-add" onclick="add(`product4`, 8000)">
+          Agregar
+        </button>
+      </div>
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product5.jpg" />
+        <h1>$15000</h1>
+        <button class="button-add" onclick="add(`product5`, 15000)">
+          Agregar
+        </button>
+      </div>
+      <div class="product-container">
+        <h3>Nombre</h3>
+        <img src="image/product6.jpg" />
+        <h1>$25000</h1>
+        <button class="button-add" onclick="add(`product6`, 25000)">
+          Agregar
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
